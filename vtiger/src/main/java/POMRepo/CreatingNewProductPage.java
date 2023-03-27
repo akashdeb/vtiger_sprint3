@@ -29,8 +29,6 @@ public class CreatingNewProductPage {
 	@FindBy(name = "search")
 	private WebElement searchNowButton;
 
-
-
 	@FindBy(id = "my_file_element")
 	private WebElement uploadProductImageButton;
 
