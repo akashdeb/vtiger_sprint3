@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import vtiger.genericUtility.BaseClass;
 
 @Listeners(vtiger.genericUtility.ListenersImplementationClass.class)
-public class ToCreateALeadANdToEdit extends BaseClass {
+public class ToCreateALeadANdToEdit  {
 
 	@Test
 	public void toCreateALeadAndEditTheLeadAndVerify() {

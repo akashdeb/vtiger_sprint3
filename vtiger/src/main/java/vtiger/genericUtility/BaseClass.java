@@ -32,13 +32,13 @@ public class BaseClass {
 	public Connection connection;
 	
 	@BeforeSuite
-	public void bsConfig() throws SQLException {
+	/*public void bsConfig() throws SQLException {
 		Driver driver = new Driver();
 		DriverManager.registerDriver(driver);
 		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/automation", "root", "root");
 		System.out.println("Data base connection has been established");
 	}
-
+*/
 	@BeforeClass
 	public void bcConfig() throws IOException {
 		WebDriverManager.edgedriver().setup();
@@ -75,10 +75,10 @@ public class BaseClass {
 		System.out.println("The browser has been closed");
 	}
 
-	@AfterSuite
+/*	@AfterSuite
 	public void asConfig() throws SQLException {
 		connection.close();
 		System.out.println("The Data base connection has been closed");
 	}
-
+*/
 }
