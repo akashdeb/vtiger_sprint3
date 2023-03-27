@@ -4,7 +4,7 @@ public class ClassByRoopsi {
 
 	public static void main(String[] args) {
 		
-		System.out.println("First with no conflict Push");
+		System.out.println("First push with conflict Push");
 
 	}
 
