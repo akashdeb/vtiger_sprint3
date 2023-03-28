@@ -2,16 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-27T13:28:41 IST" name="Default suite" finished-at="2023-03-27T13:28:41 IST" duration-ms="100">
+  <suite started-at="2023-03-28T16:37:14 IST" name="Default suite" finished-at="2023-03-28T16:37:29 IST" duration-ms="14921">
     <groups>
     </groups>
-    <test started-at="2023-03-27T13:28:41 IST" name="Default test" finished-at="2023-03-27T13:28:41 IST" duration-ms="100">
-      <class name="vtiger.basicTestScript.ToCreateALeadANdToEdit">
-        <test-method signature="toCreateALeadAndEditTheLeadAndVerify()[pri:0, instance:vtiger.basicTestScript.ToCreateALeadANdToEdit@703580bf]" started-at="2023-03-27T13:28:41 IST" name="toCreateALeadAndEditTheLeadAndVerify" finished-at="2023-03-27T13:28:41 IST" duration-ms="18" status="PASS">
+    <test started-at="2023-03-28T16:37:14 IST" name="Default test" finished-at="2023-03-28T16:37:29 IST" duration-ms="14921">
+      <class name="vtiger.leads.ToCreateALeadTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.leads.ToCreateALeadTest@47e2e487]" started-at="2023-03-28T16:37:14 IST" name="bcConfig" finished-at="2023-03-28T16:37:17 IST" duration-ms="3343" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- toCreateALeadAndEditTheLeadAndVerify -->
-      </class> <!-- vtiger.basicTestScript.ToCreateALeadANdToEdit -->
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.leads.ToCreateALeadTest@47e2e487]" started-at="2023-03-28T16:37:17 IST" name="bmConfig" finished-at="2023-03-28T16:37:19 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="toCreateALeadAndToVerifyTheLead()[pri:0, instance:vtiger.leads.ToCreateALeadTest@47e2e487]" started-at="2023-03-28T16:37:19 IST" name="toCreateALeadAndToVerifyTheLead" finished-at="2023-03-28T16:37:27 IST" duration-ms="7843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateALeadAndToVerifyTheLead -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.leads.ToCreateALeadTest@47e2e487]" started-at="2023-03-28T16:37:27 IST" name="amConfig" finished-at="2023-03-28T16:37:29 IST" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.leads.ToCreateALeadTest@47e2e487]" started-at="2023-03-28T16:37:29 IST" name="acConfig" finished-at="2023-03-28T16:37:29 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- vtiger.leads.ToCreateALeadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
