@@ -9,6 +9,12 @@ public class ClassByRoopsi {
 		System.out.println("Second push with no conflict Push");
 
 
+		System.out.println("Second push with no conflict Push");
+
+		
+		System.out.println("Third push with no conflict");
+
+	
 
 	}
 

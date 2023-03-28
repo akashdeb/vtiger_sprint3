@@ -21,10 +21,10 @@ import vtiger.genericUtility.IPathConstant;
 import vtiger.genericUtility.JavaUtility;
 import vtiger.genericUtility.WebDriverUtility;
 @Listeners(vtiger.genericUtility.ListenersImplementationClass.class)
-public class CreateAProduct extends BaseClass {
+public class CreateAProductTest extends BaseClass {
 	
 	@Test
-	public void createProductWithVendorDetails() throws EncryptedDocumentException, IOException {
+	public void createProductWithVendorDetailsTest() throws EncryptedDocumentException, IOException {
 		
 		String vendorName = eUtils.fetchDataFromExcelSheet(IPathConstant.SHEET_NAME_FOR_VENDOR, 18, 2);
 		String productName = eUtils.fetchDataFromExcelSheet(IPathConstant.SHEET_NAME_FOR_PRODUCT, 17, 2);
