@@ -31,14 +31,12 @@ public class ToCreateALeadTest extends BaseClass {
 		
 		HomePage home=new HomePage(driver);
 		home.clickOnLeadsModule();
-		Assert.fail();
 		LeadsPage leads = new LeadsPage(driver);
 		leads.clickOnLeadsPlusButton();
 		
 		CreateNewLeadPage createLead = new CreateNewLeadPage(driver);
 		createLead.selectSalutationType(salutation);
 		createLead.enterFirstName(firstName);
-		Assert.fail();
 		createLead.enterLastName(lastName);
 		createLead.enterCompanyName(companyName);
 		createLead.selelctFromIndustryDropdown(industryName);
