@@ -2,20 +2,15 @@ package vtiger.genericUtility;
 
 import java.io.IOException;
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-
-import com.mysql.cj.jdbc.Driver;
 
 import POMRepo.HomePage;
 import POMRepo.LoginPage;
@@ -31,8 +26,8 @@ public class BaseClass {
 
 	public Connection connection;
 	
-	@BeforeSuite
-	/*public void bsConfig() throws SQLException {
+	/*@BeforeSuite
+	public void bsConfig() throws SQLException {
 		Driver driver = new Driver();
 		DriverManager.registerDriver(driver);
 		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/automation", "root", "root");
@@ -41,8 +36,8 @@ public class BaseClass {
 */
 	@BeforeClass
 	public void bcConfig() throws IOException {
-		WebDriverManager.edgedriver().setup();
-		driver=new EdgeDriver();
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
 		wUtils.maximizeTheBrowser(driver);
 		wUtils.implicitWait(driver);
 		System.out.println("The browser has been launched");
