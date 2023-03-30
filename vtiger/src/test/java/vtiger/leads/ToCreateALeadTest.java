@@ -48,7 +48,9 @@ public class ToCreateALeadTest extends BaseClass {
 		String actualLeadName = leadInfo.verifyLeadInfo(firstName);
 		
 		Assert.assertTrue(actualLeadName.contains(firstName));
+		System.out.println("The Lead has been created");
 		System.out.println("The Lead has been created");	
+
 	}
 
 }
